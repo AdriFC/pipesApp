@@ -43,6 +43,13 @@
                 <li> fecha | date:'long' </li>
                 <li> fecha | date:'dd-MM-yyyy' </li>
             </ul>
+
+            <hr>
+            <ul>
+                <li>  fecha | date:'long':'GMT-6'  </li>
+                <li>  fecha | date:'long':'GMT0'  </li>
+            </ul>
+
         </p-card>
     </div>
     <div class="col-6">
@@ -54,6 +61,14 @@
                 <li> {{ fecha | date:'long' }} </li>
                 <li> {{ fecha | date:'dd-MM-yyyy' }} </li>
             </ul>
+
+            <hr>
+            <ul>
+                <li> {{ fecha | date:'long':'GMT-6' }} </li>
+                <li> {{ fecha | date:'long':'GMT0' }} </li>
+                <li> {{ fecha | date:'long':'':'fr' }} </li>
+            </ul>
+
         </p-card>
     </div>
 </div>
